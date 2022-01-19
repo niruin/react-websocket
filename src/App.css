@@ -1,3 +1,64 @@
 .app {
-  text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    width: 600px;
+    margin: auto;
+}
+
+.wrapper {
+    width: 200px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.symbol {
+    text-transform: uppercase;
+    color: rgb(183, 189, 198);
+}
+
+.btn {
+    margin: 3px 3px 0 0;
+    text-transform: capitalize;
+}
+
+.lists-group {
+    width: 100%;
+    margin: auto;
+    border: 1px solid rgb(94, 102, 115);
+}
+
+.list {
+    list-style: none;
+    padding: 6px 8px;
+    margin: 0;
+}
+
+.list:first-child {
+    border-bottom: 1px dotted rgb(94, 102, 115);
+}
+
+.list__line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list__line-caption {
+    font-size: 12px;
+    color: rgb(132, 142, 156);
+}
+
+.list__line-cost, .list__line-qty {
+    font-size: 12px;
+    line-height: 20px;
+    color: rgb(246, 70, 93);
+}
+
+.list__line-cost--ask {
+    color: rgb(14, 203, 129);
+}
+
+.list__line-qty {
+    color: rgb(183, 189, 198)
 }
